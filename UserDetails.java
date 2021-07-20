@@ -52,16 +52,14 @@ public class UserDetails {
 				String a=tf1.getText();
 				char[] c=a.toCharArray();
 				char[] b=psd.getPassword();
-				if(b.equals(c))
+				if(c.equals(b)==true)
 				{
-					frame.dispose();
-					
-					Payment ob=new Payment();
-					ob.setVisible(true);
+					JOptionPane.showConfirmDialog(null, "Enter valid details", "Incorrect id", JOptionPane.CLOSED_OPTION);
 				}
-				else
+				else 
 				{
-					JOptionPane.showConfirmDialog(null, "Enter the right username and password", "Incorrect Details", JOptionPane.CLOSED_OPTION);
+					Payment p1=new Payment();
+					p1.setVisible(true);
 				}
 			}
 			
