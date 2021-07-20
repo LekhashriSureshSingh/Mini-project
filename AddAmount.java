@@ -15,7 +15,7 @@ public class AddAmount extends JFrame{
 	JButton bt1,bt2;
 	
 	AddAmount(){
-		new JFrame("Add Amount");
+		this.setTitle("Add Amount");
 		this.setLayout(null);
 		
 		lbl=new JLabel("Enter the details to deposite amount");
