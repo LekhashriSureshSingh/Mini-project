@@ -27,7 +27,7 @@ public class Recharge extends JFrame{
 	
 	Recharge()
 	{
-		new JFrame("Recharge Plans");
+		this.setTitle("Recharge Plans");
 		labl1=new JLabel("Phone no");
 		fld1=new JTextField();
 		fld2=new JTextField();
