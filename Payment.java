@@ -13,7 +13,7 @@ public class Payment extends JFrame{
 	
 	Payment()
 	{
-		new JFrame("Payment Window");
+		this.setTitle("Payment Window");
 		this.setLayout(null);
 		l1=new JLabel("Enter the payment method");
 		l1.setBounds(50, 50, 150, 30);
