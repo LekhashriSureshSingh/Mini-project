@@ -58,6 +58,7 @@ public class UserDetails {
 				}
 				else 
 				{
+					frame.dispose();
 					Payment p1=new Payment();
 					p1.setVisible(true);
 				}
