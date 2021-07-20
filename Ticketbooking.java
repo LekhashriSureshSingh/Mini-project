@@ -22,7 +22,7 @@ public class Ticketbooking extends JFrame{
 	
 	Ticketbooking()
 	{
-		new JFrame("Ticket Registration Portal");
+		this.setTitle("Ticket Registration Portal");
 		this.setLayout(null);
 		
 		label1=new JLabel("NAME");
